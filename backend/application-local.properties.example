@@ -1,0 +1,11 @@
+# LOCAL SECRETS - do not commit (listed in .gitignore). Values were moved here from application.properties.
+# On a server, set these as environment variables instead and delete this file.
+DB_USERNAME=change-me
+DB_PASSWORD=change-me
+JWT_SECRET=change-me
+MAIL_USERNAME=change-me
+MAIL_PASSWORD=change-me
+
+# First-run admin (username: username). Only used when the admin account does not exist yet.
+#app.admin.default-password=ChangeMe123!
+#app.admin.reset-password-on-startup=false
